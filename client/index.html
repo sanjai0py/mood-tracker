@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>mood tracker</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <h1>mood tracker.</h1>
+    </div>
+    <section class="main-container">
+      <section class="section-left">
+        <h1>fill the following.</h1>
+        <div class="user-inputs-container">
+          <div class="moods-container">
+            <span>how was the day?</span>
+            <div class="moods">
+              <span data-zero="3">😃</span>
+              <span data-zero="2">🙂</span>
+              <span data-zero="1">😐</span>
+              <span data-zero="0">🙁</span>
+            </div>
+          </div>
+
+          <div class="creative-container">
+            <span>how many hours you were creative? (approx)</span>
+            <div>
+              <label for="creative-hours"></label>
+              <input placeholder="24" id="creative-hours" type="number" />
+            </div>
+          </div>
+
+          <div class="journal-container">
+            <span>journal the day</span>
+            <div>
+              <label for="journal-input"></label>
+              <textarea
+                id="journal-input"
+                name="text"
+                rows="5"
+                cols="14"
+                wrap="soft"
+              >
+              </textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-right">
+        <h1>stats.</h1>
+      </section>
+    </section>
+  </body>
+</html>
